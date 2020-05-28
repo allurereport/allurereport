@@ -1,5 +1,61 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Webdriver PUBLICA browser tests",
+    "children" : [ {
+      "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.1 ",
+      "uid" : "6635b3ed5c39227d",
+      "parentUid" : "bcaa081652bacc4039ffadc56ce5b29b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590682788588,
+        "stop" : 1590682794370,
+        "duration" : 5782
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Sample issue 20180615T1711" ]
+    }, {
+      "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.2 ",
+      "uid" : "a8d865c594a431a0",
+      "parentUid" : "bcaa081652bacc4039ffadc56ce5b29b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590682794371,
+        "stop" : 1590682796309,
+        "duration" : 1938
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "123" ]
+    }, {
+      "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.1 ",
+      "uid" : "dc6f9ba6cf01e804",
+      "parentUid" : "bcaa081652bacc4039ffadc56ce5b29b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590682796313,
+        "stop" : 1590682798466,
+        "duration" : 2153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Sample issue 20180615T1711" ]
+    }, {
+      "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.2 ",
+      "uid" : "37d32ab94a3e6dd0",
+      "parentUid" : "bcaa081652bacc4039ffadc56ce5b29b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590682798467,
+        "stop" : 1590682800257,
+        "duration" : 1790
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Sample issue XXXXXXXX" ]
+    } ],
+    "uid" : "bcaa081652bacc4039ffadc56ce5b29b"
+  } ]
 }

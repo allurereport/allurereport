@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "children" : [ {
+        "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.2 ",
+        "uid" : "a8d865c594a431a0",
+        "parentUid" : "56ce07f7dd7fe32490255f853cdfb569",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590682794371,
+          "stop" : 1590682796309,
+          "duration" : 1938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123" ]
+      } ],
+      "uid" : "56ce07f7dd7fe32490255f853cdfb569"
+    }, {
+      "name" : "AssertionError: 'Sample issue 20180615T1711' != 'Sample issue XXXXXXXX'\n- Sample issue 20180615T1711\n+ Sample issue XXXXXXXX\n\n",
+      "children" : [ {
+        "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.2 ",
+        "uid" : "37d32ab94a3e6dd0",
+        "parentUid" : "3d32da0208e8b89a178cc142c041cf32",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590682798467,
+          "stop" : 1590682800257,
+          "duration" : 1790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Sample issue XXXXXXXX" ]
+      } ],
+      "uid" : "3d32da0208e8b89a178cc142c041cf32"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
