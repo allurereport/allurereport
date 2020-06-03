@@ -1,81 +1,79 @@
 {
   "adc58b85adb6be9544708a9ae3c4dc6f" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d43f5a25efe62bda",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome=83.0.4103.61)\n\n",
+      "uid" : "7674946462a3dfaa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
       "time" : {
-        "start" : 1591194832160,
-        "stop" : 1591194862169,
-        "duration" : 30009
+        "start" : 1591196831019,
+        "stop" : 1591196833899,
+        "duration" : 2880
       }
     } ]
   },
   "6c9de2d5c91310142320064a7e1c0a09" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "556d503fdd402441",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome=83.0.4103.61)\n\n",
+      "uid" : "df990fe2c291741e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != 'Sample issue XXXXXXXX'\n- Sample issue 20180615T1711\n+ Sample issue XXXXXXXX\n\n",
       "time" : {
-        "start" : 1591194892180,
-        "stop" : 1591194922187,
-        "duration" : 30007
+        "start" : 1591196836365,
+        "stop" : 1591196838794,
+        "duration" : 2429
       }
     } ]
   },
   "fc86873a8b6e52f52d8247b533443e0e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "241d7bac88667645",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome=83.0.4103.61)\n\n",
+      "uid" : "3af0fc6d9bb40c30",
+      "status" : "passed",
       "time" : {
-        "start" : 1591194862171,
-        "stop" : 1591194892178,
-        "duration" : 30007
+        "start" : 1591196833900,
+        "stop" : 1591196836361,
+        "duration" : 2461
       }
     } ]
   },
   "ee3a7e4d3d404ae4b8cc45b9fae15734" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "becd9fb140fc2503",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome=83.0.4103.61)\n\n",
+      "uid" : "798f66cd620f1093",
+      "status" : "passed",
       "time" : {
-        "start" : 1591194797421,
-        "stop" : 1591194832159,
-        "duration" : 34738
+        "start" : 1591196826395,
+        "stop" : 1591196831017,
+        "duration" : 4622
       }
     } ]
   }

@@ -2,64 +2,42 @@
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome=83.0.4103.61)\n\n",
+      "name" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
       "children" : [ {
-        "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.1 ",
-        "uid" : "becd9fb140fc2503",
-        "parentUid" : "947de5242a2ef17a1d95790a9d983795",
-        "status" : "broken",
-        "time" : {
-          "start" : 1591194797421,
-          "stop" : 1591194832159,
-          "duration" : 34738
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Sample issue 20180615T1711" ]
-      }, {
         "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.2 ",
-        "uid" : "d43f5a25efe62bda",
-        "parentUid" : "947de5242a2ef17a1d95790a9d983795",
-        "status" : "broken",
+        "uid" : "7674946462a3dfaa",
+        "parentUid" : "56ce07f7dd7fe32490255f853cdfb569",
+        "status" : "failed",
         "time" : {
-          "start" : 1591194832160,
-          "stop" : 1591194862169,
-          "duration" : 30009
+          "start" : 1591196831019,
+          "stop" : 1591196833899,
+          "duration" : 2880
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "123" ]
-      }, {
-        "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.1 ",
-        "uid" : "241d7bac88667645",
-        "parentUid" : "947de5242a2ef17a1d95790a9d983795",
-        "status" : "broken",
-        "time" : {
-          "start" : 1591194862171,
-          "stop" : 1591194892178,
-          "duration" : 30007
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "Sample issue 20180615T1711" ]
-      }, {
+      } ],
+      "uid" : "56ce07f7dd7fe32490255f853cdfb569"
+    }, {
+      "name" : "AssertionError: 'Sample issue 20180615T1711' != 'Sample issue XXXXXXXX'\n- Sample issue 20180615T1711\n+ Sample issue XXXXXXXX\n\n",
+      "children" : [ {
         "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.2 ",
-        "uid" : "556d503fdd402441",
-        "parentUid" : "947de5242a2ef17a1d95790a9d983795",
-        "status" : "broken",
+        "uid" : "df990fe2c291741e",
+        "parentUid" : "3d32da0208e8b89a178cc142c041cf32",
+        "status" : "failed",
         "time" : {
-          "start" : 1591194892180,
-          "stop" : 1591194922187,
-          "duration" : 30007
+          "start" : 1591196836365,
+          "stop" : 1591196838794,
+          "duration" : 2429
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "Sample issue XXXXXXXX" ]
       } ],
-      "uid" : "947de5242a2ef17a1d95790a9d983795"
+      "uid" : "3d32da0208e8b89a178cc142c041cf32"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }
