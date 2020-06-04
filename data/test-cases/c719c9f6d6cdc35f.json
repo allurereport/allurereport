@@ -1,0 +1,151 @@
+{
+  "uid" : "c719c9f6d6cdc35f",
+  "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.1 ",
+  "historyId" : "fc86873a8b6e52f52d8247b533443e0e",
+  "time" : {
+    "start" : 1591262875269,
+    "stop" : 1591262877663,
+    "duration" : 2394
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the Jira Cloud instance acutesttraining has a publicly accessible project with issuekey \"PUBLICA‌-1\"",
+      "time" : {
+        "start" : 1591262875270,
+        "stop" : 1591262875270,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When CDAF test visits the url \"https://acutesttraining.atlassian.net/browse/PUBLICA-1?oldIssueView=true\" without logging in",
+      "time" : {
+        "start" : 1591262875271,
+        "stop" : 1591262877550,
+        "duration" : 2279
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then the page title is \"Sample issue 20180615T1711\"",
+      "time" : {
+        "start" : 1591262877550,
+        "stop" : 1591262877663,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "build-test"
+  }, {
+    "name" : "tag",
+    "value" : "should-fail"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "feature",
+    "value" : "Webdriver PUBLICA browser tests"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "issue",
+    "value" : "Sample issue 20180615T1711"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "31a979dea7847b1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591196833900,
+        "stop" : 1591196836361,
+        "duration" : 2461
+      }
+    }, {
+      "uid" : "67acaffb131f9386",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome=83.0.4103.61)\n\n",
+      "time" : {
+        "start" : 1591194862171,
+        "stop" : 1591194892178,
+        "duration" : 30007
+      }
+    }, {
+      "uid" : "7002e79fb991d583",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590743336848,
+        "stop" : 1590743339118,
+        "duration" : 2270
+      }
+    }, {
+      "uid" : "db6cdcfba36a68f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590682946818,
+        "stop" : 1590682949237,
+        "duration" : 2419
+      }
+    }, {
+      "uid" : "22635edbbf20719b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590682796313,
+        "stop" : 1590682798466,
+        "duration" : 2153
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "build-test", "web", "should-fail" ]
+  },
+  "source" : "c719c9f6d6cdc35f.json",
+  "parameterValues" : [ "Sample issue 20180615T1711" ]
+}
