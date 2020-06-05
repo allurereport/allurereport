@@ -1,40 +1,40 @@
 [ {
-  "uid" : "d4058b5caa7f3d90",
+  "uid" : "7dc5c388f0fde03a",
+  "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.2 ",
+  "time" : {
+    "start" : 1591351027786,
+    "stop" : 1591351030524,
+    "duration" : 2738
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ab78fd20b3eaa5f",
+  "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.2 ",
+  "time" : {
+    "start" : 1591351023025,
+    "stop" : 1591351025499,
+    "duration" : 2474
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "88affbe97367ed94",
   "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.1 ",
   "time" : {
-    "start" : 1591262868313,
-    "stop" : 1591262872877,
-    "duration" : 4564
+    "start" : 1591351018778,
+    "stop" : 1591351023025,
+    "duration" : 4247
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "67fd99fe1717e0e8",
-  "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.2 ",
-  "time" : {
-    "start" : 1591262872878,
-    "stop" : 1591262875219,
-    "duration" : 2341
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "aefa6908ffc8f042",
-  "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.2 ",
-  "time" : {
-    "start" : 1591262877665,
-    "stop" : 1591262879951,
-    "duration" : 2286
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c719c9f6d6cdc35f",
+  "uid" : "7b77014b8e5caa05",
   "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.1 ",
   "time" : {
-    "start" : 1591262875269,
-    "stop" : 1591262877663,
-    "duration" : 2394
+    "start" : 1591351025513,
+    "stop" : 1591351027785,
+    "duration" : 2272
   },
   "status" : "passed",
   "severity" : "normal"
