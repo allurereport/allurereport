@@ -5,52 +5,52 @@
     "name" : "Webdriver PUBLICA browser tests",
     "children" : [ {
       "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.1 ",
-      "uid" : "f0a7977120533132",
+      "uid" : "498502af40feb3a7",
       "parentUid" : "bcaa081652bacc4039ffadc56ce5b29b",
       "status" : "passed",
       "time" : {
-        "start" : 1591363732070,
-        "stop" : 1591363735651,
-        "duration" : 3581
+        "start" : 1591371891782,
+        "stop" : 1591371895410,
+        "duration" : 3628
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Sample issue 20180615T1711" ]
     }, {
       "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.2 ",
-      "uid" : "71f6502056391627",
+      "uid" : "ff6b299f4739daa8",
       "parentUid" : "bcaa081652bacc4039ffadc56ce5b29b",
       "status" : "failed",
       "time" : {
-        "start" : 1591363735651,
-        "stop" : 1591363738658,
-        "duration" : 3007
+        "start" : 1591371895411,
+        "stop" : 1591371897563,
+        "duration" : 2152
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "123" ]
     }, {
       "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.1 ",
-      "uid" : "2534da2e68d50b5e",
+      "uid" : "dd737e8ebc906ff7",
       "parentUid" : "bcaa081652bacc4039ffadc56ce5b29b",
       "status" : "passed",
       "time" : {
-        "start" : 1591363738658,
-        "stop" : 1591363740635,
-        "duration" : 1977
+        "start" : 1591371897565,
+        "stop" : 1591371899970,
+        "duration" : 2405
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Sample issue 20180615T1711" ]
     }, {
       "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.2 ",
-      "uid" : "a3dba7b35215e038",
+      "uid" : "817382437ae948eb",
       "parentUid" : "bcaa081652bacc4039ffadc56ce5b29b",
       "status" : "failed",
       "time" : {
-        "start" : 1591363740677,
-        "stop" : 1591363743155,
-        "duration" : 2478
+        "start" : 1591371899972,
+        "stop" : 1591371902090,
+        "duration" : 2118
       },
       "flaky" : false,
       "newFailed" : false,
