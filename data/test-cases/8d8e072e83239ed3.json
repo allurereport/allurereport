@@ -1,0 +1,199 @@
+{
+  "uid" : "8d8e072e83239ed3",
+  "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.1 ",
+  "historyId" : "ee3a7e4d3d404ae4b8cc45b9fae15734",
+  "time" : {
+    "start" : 1591784655903,
+    "stop" : 1591784660150,
+    "duration" : 4247
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given the Jira Cloud instance acutesttraining has a publicly accessible project with issuekey \"PUBLICA‌-1\"",
+      "time" : {
+        "start" : 1591784655905,
+        "stop" : 1591784655905,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When CDAF test visits the url \"https://acutesttraining.atlassian.net/browse/PUBLICA-1?oldIssueView=true\" without logging in",
+      "time" : {
+        "start" : 1591784655905,
+        "stop" : 1591784660108,
+        "duration" : 4203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then the page title is \"Sample issue 20180615T1711\"",
+      "time" : {
+        "start" : 1591784660109,
+        "stop" : 1591784660150,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "build-test"
+  }, {
+    "name" : "tag",
+    "value" : "pass"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "feature",
+    "value" : "Webdriver PUBLICA browser tests"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "issue",
+    "value" : "Sample issue 20180615T1711"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "43c4a8cbd7c046ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591699024342,
+        "stop" : 1591699028137,
+        "duration" : 3795
+      }
+    }, {
+      "uid" : "e8d65e4a3e613d23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591606826006,
+        "stop" : 1591606831331,
+        "duration" : 5325
+      }
+    }, {
+      "uid" : "b6e18f0634e90502",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591371891782,
+        "stop" : 1591371895410,
+        "duration" : 3628
+      }
+    }, {
+      "uid" : "72897044510f4a5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591363732070,
+        "stop" : 1591363735651,
+        "duration" : 3581
+      }
+    }, {
+      "uid" : "cf9a4681390d21a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591351018778,
+        "stop" : 1591351023025,
+        "duration" : 4247
+      }
+    }, {
+      "uid" : "83389201867a5738",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591262868313,
+        "stop" : 1591262872877,
+        "duration" : 4564
+      }
+    }, {
+      "uid" : "150dbb02512a4749",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591196826395,
+        "stop" : 1591196831017,
+        "duration" : 4622
+      }
+    }, {
+      "uid" : "2c53200919298d7d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome=83.0.4103.61)\n\n",
+      "time" : {
+        "start" : 1591194797421,
+        "stop" : 1591194832159,
+        "duration" : 34738
+      }
+    }, {
+      "uid" : "3963ca56f57b1544",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590743328609,
+        "stop" : 1590743333803,
+        "duration" : 5194
+      }
+    }, {
+      "uid" : "709fb597b92eed49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590682940674,
+        "stop" : 1590682944463,
+        "duration" : 3789
+      }
+    }, {
+      "uid" : "9e058fbdb4bf424e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590682788588,
+        "stop" : 1590682794370,
+        "duration" : 5782
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "build-test", "pass", "web" ]
+  },
+  "source" : "8d8e072e83239ed3.json",
+  "parameterValues" : [ "Sample issue 20180615T1711" ]
+}
