@@ -1,0 +1,114 @@
+{
+  "uid" : "ac186f8aee3168f",
+  "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.2 ",
+  "historyId" : "adc58b85adb6be9544708a9ae3c4dc6f",
+  "time" : {
+    "start" : 1591363735651,
+    "stop" : 1591363738658,
+    "duration" : 3007
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+  "statusTrace" : "  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\jira_issue_steps.py\", line 19, in step_impl\n    assert_equal (context.issue_page.get_title(), expected_text)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 912, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 1292, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 753, in fail\n    raise self.failureException(msg)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+    "statusTrace" : "  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\jira_issue_steps.py\", line 19, in step_impl\n    assert_equal (context.issue_page.get_title(), expected_text)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 912, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 1292, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 753, in fail\n    raise self.failureException(msg)\n",
+    "steps" : [ {
+      "name" : "Given the Jira Cloud instance acutesttraining has a publicly accessible project with issuekey \"PUBLICA‌-1\"",
+      "time" : {
+        "start" : 1591363735651,
+        "stop" : 1591363735651,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When CDAF test visits the url \"https://acutesttraining.atlassian.net/browse/PUBLICA-1?oldIssueView=true\" without logging in",
+      "time" : {
+        "start" : 1591363735651,
+        "stop" : 1591363738611,
+        "duration" : 2960
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then the page title is \"123\"",
+      "time" : {
+        "start" : 1591363738611,
+        "stop" : 1591363738658,
+        "duration" : 47
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "statusTrace" : "  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\jira_issue_steps.py\", line 19, in step_impl\n    assert_equal (context.issue_page.get_title(), expected_text)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 912, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 1292, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 753, in fail\n    raise self.failureException(msg)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "build-test"
+  }, {
+    "name" : "tag",
+    "value" : "pass"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "feature",
+    "value" : "Webdriver PUBLICA browser tests"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "issue",
+    "value" : "123"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "build-test", "pass", "web" ]
+  },
+  "source" : "ac186f8aee3168f.json",
+  "parameterValues" : [ "123" ]
+}
