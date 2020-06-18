@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bc39f166b4d54cfb",
+      "uid" : "8c77186776538f7a",
       "status" : "failed",
       "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
       "time" : {
-        "start" : 1592387827123,
-        "stop" : 1592387829892,
-        "duration" : 2769
+        "start" : 1592480429516,
+        "stop" : 1592480432755,
+        "duration" : 3239
       }
     } ]
   },
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "598071f846815bc3",
+      "uid" : "264338c27e35da68",
       "status" : "failed",
       "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != 'Sample issue XXXXXXXX'\n- Sample issue 20180615T1711\n+ Sample issue XXXXXXXX\n\n",
       "time" : {
-        "start" : 1592387832537,
-        "stop" : 1592387834735,
-        "duration" : 2198
+        "start" : 1592480435486,
+        "stop" : 1592480438302,
+        "duration" : 2816
       }
     } ]
   },
@@ -49,12 +49,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7bfa398f3847653a",
+      "uid" : "6bc823f0e93a3f41",
       "status" : "passed",
       "time" : {
-        "start" : 1592387829895,
-        "stop" : 1592387832536,
-        "duration" : 2641
+        "start" : 1592480432760,
+        "stop" : 1592480435485,
+        "duration" : 2725
       }
     } ]
   },
@@ -68,12 +68,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "111cba23b71a153e",
+      "uid" : "5ecee542b2cb6a54",
       "status" : "passed",
       "time" : {
-        "start" : 1592387822812,
-        "stop" : 1592387827120,
-        "duration" : 4308
+        "start" : 1592480425401,
+        "stop" : 1592480429513,
+        "duration" : 4112
       }
     } ]
   }
