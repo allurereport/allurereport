@@ -3,52 +3,52 @@
   "name" : "packages",
   "children" : [ {
     "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.1 ",
-    "uid" : "5ecee542b2cb6a54",
+    "uid" : "ab6207445ba2ab07",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1592480425401,
-      "stop" : 1592480429513,
-      "duration" : 4112
+      "start" : 1592567167018,
+      "stop" : 1592567171756,
+      "duration" : 4738
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "Sample issue 20180615T1711" ]
   }, {
     "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.2 ",
-    "uid" : "8c77186776538f7a",
+    "uid" : "cff834097db68482",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "failed",
     "time" : {
-      "start" : 1592480429516,
-      "stop" : 1592480432755,
-      "duration" : 3239
+      "start" : 1592567171759,
+      "stop" : 1592567174551,
+      "duration" : 2792
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "123" ]
   }, {
     "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.1 ",
-    "uid" : "6bc823f0e93a3f41",
+    "uid" : "4b1199df6ad7a05a",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1592480432760,
-      "stop" : 1592480435485,
-      "duration" : 2725
+      "start" : 1592567174552,
+      "stop" : 1592567177174,
+      "duration" : 2622
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "Sample issue 20180615T1711" ]
   }, {
     "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.2 ",
-    "uid" : "264338c27e35da68",
+    "uid" : "e714d165b9e395b1",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "failed",
     "time" : {
-      "start" : 1592480435486,
-      "stop" : 1592480438302,
-      "duration" : 2816
+      "start" : 1592567177175,
+      "stop" : 1592567179750,
+      "duration" : 2575
     },
     "flaky" : false,
     "newFailed" : false,

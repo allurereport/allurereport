@@ -1,0 +1,282 @@
+{
+  "uid" : "cff834097db68482",
+  "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.2 ",
+  "historyId" : "adc58b85adb6be9544708a9ae3c4dc6f",
+  "time" : {
+    "start" : 1592567171759,
+    "stop" : 1592567174551,
+    "duration" : 2792
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+  "statusTrace" : "  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\jira_issue_steps.py\", line 19, in step_impl\n    assert_equal (context.issue_page.get_title(), expected_text)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 912, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 1292, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 753, in fail\n    raise self.failureException(msg)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+    "statusTrace" : "  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\jira_issue_steps.py\", line 19, in step_impl\n    assert_equal (context.issue_page.get_title(), expected_text)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 912, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 1292, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 753, in fail\n    raise self.failureException(msg)\n",
+    "steps" : [ {
+      "name" : "Given the Jira Cloud instance acutesttraining has a publicly accessible project with issuekey \"PUBLICA‌-1\"",
+      "time" : {
+        "start" : 1592567171760,
+        "stop" : 1592567171760,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "When CDAF test visits the url \"https://acutesttraining.atlassian.net/browse/PUBLICA-1?oldIssueView=true\" without logging in",
+      "time" : {
+        "start" : 1592567171761,
+        "stop" : 1592567174382,
+        "duration" : 2621
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Then the page title is \"123\"",
+      "time" : {
+        "start" : 1592567174382,
+        "stop" : 1592567174550,
+        "duration" : 168
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "statusTrace" : "  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\jira_issue_steps.py\", line 19, in step_impl\n    assert_equal (context.issue_page.get_title(), expected_text)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 912, in assertEqual\n    assertion_func(first, second, msg=msg)\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 1292, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n  File \"c:\\users\\george-cooper\\appdata\\local\\programs\\python\\python38-32\\lib\\unittest\\case.py\", line 753, in fail\n    raise self.failureException(msg)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "build-test"
+  }, {
+    "name" : "tag",
+    "value" : "pass"
+  }, {
+    "name" : "tag",
+    "value" : "web"
+  }, {
+    "name" : "feature",
+    "value" : "Webdriver PUBLICA browser tests"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "issue",
+    "value" : "123"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1a1b8b6db40f58f8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1592480429516,
+        "stop" : 1592480432755,
+        "duration" : 3239
+      }
+    }, {
+      "uid" : "1db153af12c2551e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1592387827123,
+        "stop" : 1592387829892,
+        "duration" : 2769
+      }
+    }, {
+      "uid" : "2ad677a1e8a100cb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1592302463516,
+        "stop" : 1592302465832,
+        "duration" : 2316
+      }
+    }, {
+      "uid" : "4ad83be4256a1ef0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1592213465183,
+        "stop" : 1592213467796,
+        "duration" : 2613
+      }
+    }, {
+      "uid" : "1a916334fda6d31",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1591953784355,
+        "stop" : 1591953786813,
+        "duration" : 2458
+      }
+    }, {
+      "uid" : "1c4a52da0aeac6b9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1591869515193,
+        "stop" : 1591869517666,
+        "duration" : 2473
+      }
+    }, {
+      "uid" : "e6289db0efde5bfc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1591784660152,
+        "stop" : 1591784662639,
+        "duration" : 2487
+      }
+    }, {
+      "uid" : "f24a88fe0fa10e28",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1591699028139,
+        "stop" : 1591699030780,
+        "duration" : 2641
+      }
+    }, {
+      "uid" : "cc861c55345417b8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1591606831353,
+        "stop" : 1591606834617,
+        "duration" : 3264
+      }
+    }, {
+      "uid" : "cf11dc9f8552e9f4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1591371895411,
+        "stop" : 1591371897563,
+        "duration" : 2152
+      }
+    }, {
+      "uid" : "242cc941dfe2d6cc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1591363735651,
+        "stop" : 1591363738658,
+        "duration" : 3007
+      }
+    }, {
+      "uid" : "d81c894477a272ae",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1591351023025,
+        "stop" : 1591351025499,
+        "duration" : 2474
+      }
+    }, {
+      "uid" : "9693a69f368288ea",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1591262872878,
+        "stop" : 1591262875219,
+        "duration" : 2341
+      }
+    }, {
+      "uid" : "59b40c304b9aad9a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1591196831019,
+        "stop" : 1591196833899,
+        "duration" : 2880
+      }
+    }, {
+      "uid" : "e7cdd5aad86b0069",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 30.000\n  (Session info: chrome=83.0.4103.61)\n\n",
+      "time" : {
+        "start" : 1591194832160,
+        "stop" : 1591194862169,
+        "duration" : 30009
+      }
+    }, {
+      "uid" : "bea3b62c99eafbfa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1590743333805,
+        "stop" : 1590743336848,
+        "duration" : 3043
+      }
+    }, {
+      "uid" : "58bd284e8200dc4d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1590682944464,
+        "stop" : 1590682946816,
+        "duration" : 2352
+      }
+    }, {
+      "uid" : "a7c1ca695273ab80",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
+      "time" : {
+        "start" : 1590682794371,
+        "stop" : 1590682796309,
+        "duration" : 1938
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "build-test", "pass", "web" ]
+  },
+  "source" : "cff834097db68482.json",
+  "parameterValues" : [ "123" ]
+}
