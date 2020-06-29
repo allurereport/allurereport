@@ -7,13 +7,13 @@
       "name" : "AssertionError: 'Sample issue 20180615T1711' != '123'\n- Sample issue 20180615T1711\n+ 123\n\n",
       "children" : [ {
         "name" : "Browse acutesttraining PUBLICA‌-1 issue -- @1.2 ",
-        "uid" : "a81c671d7462df19",
+        "uid" : "eedb4a6ae132fd4",
         "parentUid" : "56ce07f7dd7fe32490255f853cdfb569",
         "status" : "failed",
         "time" : {
-          "start" : 1593424575415,
-          "stop" : 1593424578139,
-          "duration" : 2724
+          "start" : 1593444986332,
+          "stop" : 1593444989670,
+          "duration" : 3338
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "AssertionError: 'Sample issue 20180615T1711' != 'Sample issue XXXXXXXX'\n- Sample issue 20180615T1711\n+ Sample issue XXXXXXXX\n\n",
       "children" : [ {
         "name" : "Browse acutesttraining PUBLICA‌-1 issue (should fail) -- @1.2 ",
-        "uid" : "b534877a674ac23e",
+        "uid" : "ab16eb9ca64f8aaa",
         "parentUid" : "3d32da0208e8b89a178cc142c041cf32",
         "status" : "failed",
         "time" : {
-          "start" : 1593424581190,
-          "stop" : 1593424584063,
-          "duration" : 2873
+          "start" : 1593444992368,
+          "stop" : 1593444995247,
+          "duration" : 2879
         },
         "flaky" : false,
         "newFailed" : false,
